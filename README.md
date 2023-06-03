@@ -32,7 +32,6 @@ High-Valued Frequent Customer: Customers on this group have low average recency 
 Low-Valued Frequent Customer: Customers on this group have high average recency (24 days) and lowest average of total purchases (7 items) it means they are frequent shoppers but they spend a little on our platform (around IDR 75K/year).
 
 Recommedation
-
 Actionable Insights:
 - Develop a membership tier program to enhance customer retention and incentivize increased shopping activity on our platform. We can establish four membership tiers - Platinum, Gold, Silver, and Bronze - each offering distinct privileges to customers. The level of membership will correspond to customer clusters, with Platinum reserved for high-value customers, Gold for highly frequent customers, Silver for moderately frequent customers, and Bronze for customers with lower value.
 
@@ -43,4 +42,4 @@ Actionable Insights:
 - Since the Low-Valued Frequent Customer and Low-Valued Customer segments have the lowest overall spending, we should concentrate on creating personalized advertisements, promotions, and campaigns that target affordable products. This approach aims to attract these customer groups to our platform. By tailoring our marketing efforts to their specific preferences and needs, we have the potential to increase their frequency of purchases and overall spending on lower-cost items, ultimately enhancing their engagement levels.
 
 Potential Impact (Quantitative):
-If we continue to prioritize Customer Groups/Clusters and prevent them from churning, there is still a potential annual GMV of approximately IDR 1.3 billion (High-Valued Customer=IDR 670M/year; Low-Valued Customer=IDR 46M/year; Low-Valued Frequent Customer=IDR 604M/year; Low-Valued Customer=IDR 47M/year).
+If we keep prioritize on Customer Groups/Clusters and they do not turn to churn, we still have potential GMV around IDR 1.3B/year (High-Valued Customer=IDR 670M/year; Low-Valued Customer=IDR 46M/year; Low-Valued Frequent Customer=IDR 604M/year; Low-Valued Customer=IDR 47M/year).
