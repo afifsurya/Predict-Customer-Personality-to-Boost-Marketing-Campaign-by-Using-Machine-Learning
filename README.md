@@ -1,37 +1,38 @@
 # Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning
 
-Background
+Background:
 A company can develop rapidly when it knows the behavior of its customer personality, so that it can provide better services and benefits to customers who have the potential to become loyal customers. Company need to know it's customer behavior to boost marketing campaign.
 
-Goal
+Goal:
 Improve marketing campaign performance and target the right customers to be able to do transaction(s) on the company's platform.
 
-Objective
+Objective:
 Create a cluster prediction model so that it makes easier for companies to make decisions.
 
-Data
+Data:
 Dataset contains customer behavior features who made transactions and interactions on our platform.
 
-Tools
+Tools:
 On this project I've used python as programming language; jupyterlab as notebook; pandas, numpy, sklearn and dython to preprocessing and machine learning section; combination of matplotlib and seaborn library to generated data visualization.
 
-Contents
+Contents:
 Exploratory Data Analysis
 Data Cleaning and Preprocessing
 On this section, there are few processes such as handling missing and duplicated value, feature selection using RFMLC (Recency, Frequency, Monetary, Loyalty and C) methods, handling outliers using IQR (Q1=1%; Q3=99%), feature transformation to selected features using minmaxscaler, and splitting data on 70:30 proportion.
 
-Data Modeling
+Data Modeling:
 Using K-Means Clustering with cross-validation elbow method to inertia and silhoutte score
 
-Customer Persoality Analysis for Marketing Retargeting
+Customer Persoality Analysis for Marketing Retargeting:
+
 Based on my model, there are 4 customer clusters:
 
-High-Valued Customer: Customers on this group have high average recency (73 days) and high average of total purchases (21 items) it means they are not frequent shoppers but they spend a lot on our platform (around IDR 1M/year).
-Low-Valued Customer: Customers on this group have highest average recency (74 days) and low average of total purchases (8 items) it means they are not frequent shoppers and they spend a little on our platform (around IDR 92K/year).
-High-Valued Frequent Customer: Customers on this group have low average recency (23 days) and high average of total purchases (21 items) it means they are frequent shoppers and they spend a lot on our platform (around IDR 989K/year).
-Low-Valued Frequent Customer: Customers on this group have high average recency (24 days) and lowest average of total purchases (7 items) it means they are frequent shoppers but they spend a little on our platform (around IDR 75K/year).
+- High-Valued Customer: Customers on this group have high average recency (73 days) and high average of total purchases (21 items) it means they are not frequent shoppers but they spend a lot on our platform (around IDR 1M/year).
+- Low-Valued Customer: Customers on this group have highest average recency (74 days) and low average of total purchases (8 items) it means they are not frequent shoppers and they spend a little on our platform (around IDR 92K/year).
+- High-Valued Frequent Customer: Customers on this group have low average recency (23 days) and high average of total purchases (21 items) it means they are frequent shoppers and they spend a lot on our platform (around IDR 989K/year).
+- Low-Valued Frequent Customer: Customers on this group have high average recency (24 days) and lowest average of total purchases (7 items) it means they are frequent shoppers but they spend a little on our platform (around IDR 75K/year).
 
-Recommedation
+Recommedation:
 Actionable Insights:
 - Develop a membership tier program to enhance customer retention and incentivize increased shopping activity on our platform. We can establish four membership tiers - Platinum, Gold, Silver, and Bronze - each offering distinct privileges to customers. The level of membership will correspond to customer clusters, with Platinum reserved for high-value customers, Gold for highly frequent customers, Silver for moderately frequent customers, and Bronze for customers with lower value.
 
